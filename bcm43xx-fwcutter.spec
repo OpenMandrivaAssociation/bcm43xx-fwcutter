@@ -12,7 +12,6 @@ URL:		http://bcm43xx.berlios.de/
 License:	GPLv2+
 Group:		System/Configuration/Networking
 Patch1:		bcm43xx-fwcutter-006-install_perms.patch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Fwcutter allows you to extract the firmware required for Broadcom 43xx chips
