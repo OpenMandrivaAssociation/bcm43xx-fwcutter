@@ -1,6 +1,6 @@
 %define name	bcm43xx-fwcutter
 %define version	006
-%define release %mkrel 8
+%define release %mkrel 9
 
 Name: 	 	%{name}
 Summary: 	Tool to extract firmware for Broadcom 43xx network chip
