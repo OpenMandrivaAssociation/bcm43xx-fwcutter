@@ -32,7 +32,7 @@ perl -pi -e 's|man/man1|share/man/man1|g' Makefile
 %make
 										
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 make install PREFIX=%buildroot/%_prefix
 cat > README.urpmi <<EOF
 You need to extract the firmware from the .sys file provided by your vendor.
@@ -40,7 +40,7 @@ i.e bcm43xx-fwcutter -w /lib/firmware/ bcmwl5.sys
 EOF
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
