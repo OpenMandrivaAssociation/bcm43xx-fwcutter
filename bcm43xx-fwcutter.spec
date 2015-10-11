@@ -1,3 +1,5 @@
+%define _disable_lto 1
+
 Name:		bcm43xx-fwcutter
 Summary:	Tool to extract firmware for Broadcom 43xx network chip
 Version:	006
