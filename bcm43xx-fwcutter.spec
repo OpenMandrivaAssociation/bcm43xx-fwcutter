@@ -3,7 +3,7 @@
 Name:		bcm43xx-fwcutter
 Summary:	Tool to extract firmware for Broadcom 43xx network chip
 Version:	006
-Release:	23
+Release:	24
 URL:		http://bcm43xx.berlios.de/
 Source:		%{name}-%{version}.tar.bz2
 License:	GPLv2+
